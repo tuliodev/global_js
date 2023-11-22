@@ -1,0 +1,22 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Tulio Resende",
+            "email": "resendetuliodev@gmail.com",
+            "password": "1234"
+        },
+        {
+            "id": 2,
+            "name": "Heitor Freire",
+            "email": "heitorblockchian@gmail.com",
+            "password": "1234"
+        },
+        {
+            "id": 3,
+            "name": "Admin",
+            "email": "admin@mail.com",
+            "password": "1234"
+        }
+    ]
+}
