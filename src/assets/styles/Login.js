@@ -5,7 +5,6 @@ export const Container = styled.section`
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
 `
 
 export const BoxContainer = styled.div`
