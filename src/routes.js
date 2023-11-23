@@ -6,7 +6,7 @@ import Login from './pages/Login';
 
 function Router() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/home" element={<Home />} exact />
         <Route path="/" element={<Login />} exact />

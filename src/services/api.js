@@ -1,6 +1,8 @@
 import axios from 'axios';
 
-const url = "http://localhost:3000/users";
+
+const baseUrl = `${window.location.protocol}//${window.location.hostname}:3000`;
+const url = `${baseUrl}/users`;
 
 export const validateLogin = async (email, password) => {
     const result = await axios.get(`${url}?email=${email}&password=${password}`);
